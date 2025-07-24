@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "MRmVdW9l2y_Q_QvpTm9K3",
+      "name": "Admin ",
+      "email": "admin@gmail.com",
+      "username": "admin",
+      "password": "123456",
+      "isAdmin": true,
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Grateful oversized relaxed fit front & back print tshirt - Black",
+      "price": "999",
+      "rating": {
+        "rate": "4.5"
+      },
+      "category": "tshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/048814d1-d68a-4a2b-b95a-1deb9b6c2bf6.jpg",
+      "description": "Comfortable oversized black t-shirt perfect for casual wear, crafted with soft cotton fabric for everyday styling."
+    },
+    {
+      "id": "2",
+      "title": "MostlySane Tshirt - White",
+      "price": "799",
+      "rating": {
+        "rate": "4.6"
+      },
+      "category": "tshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/fcb97b32-8f74-4567-b46c-6b2df4b5b4e3.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Stylish graphic hoodie with a soft fleece lining to keep you warm while adding a streetwear edge to your outfit."
+    },
+    {
+      "id": "3",
+      "title": "Dum Dum Army Tshirt - Red",
+      "price": " 699",
+      "rating": {
+        "rate": "4.4"
+      },
+      "category": "tshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/33aa8723-7d1f-4798-9040-1f202ba7d491.jpg",
+      "description": "Classic minimal sweatshirt for a clean and modern look, crafted from breathable fabric for daily comfort."
+    },
+    {
+      "id": "4",
+      "title": "Love Love Mug",
+      "price": "499",
+      "rating": {
+        "rate": "4.3"
+      },
+      "category": "mugs",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/3d50b9f7-4f7f-447f-8a3c-5186f66f356a.jpg",
+      "description": "Elegant floral phone cover that protects your device while adding a touch of vibrant style."
+    },
+    {
+      "id": "5",
+      "title": "Shameless Mug",
+      "price": "499.00",
+      "rating": {
+        "rate": "4.2"
+      },
+      "category": "mugs",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/734b9763-b85b-4298-bb76-76e73c4a3da9.jpg",
+      "description": "Spacious classic tote bag suitable for college, shopping, or daily use, designed for durability and style."
+    },
+    {
+      "id": "6",
+      "title": "Fictional Men >> Hardbound Diary",
+      "price": "699",
+      "rating": {
+        "rate": "4.1"
+      },
+      "category": "diaries",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/522c3f60-86db-430a-949b-1a56de28c155.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Reusable cotton face mask offering comfortable protection while ensuring breathability for daily use."
+    },
+    {
+      "id": "7",
+      "title": "Shameless Sipper Black",
+      "price": "999",
+      "rating": {
+        "rate": "4.5"
+      },
+      "category": "sippers",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/bd4f1519-fc7d-4e94-8b65-9b1366efa8fe.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Personalized coffee mug perfect for gifting or enjoying your favorite beverages with a personal touch."
+    },
+    {
+      "id": "8",
+      "title": "Shameless Sipper White",
+      "price": "999",
+      "rating": {
+        "rate": "4.3"
+      },
+      "category": "sippers",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/08fd016e-f4ef-455a-a6a6-60128ac820c0.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Durable sipper bottle with motivational time markers to help you track water intake throughout the day."
+    },
+    {
+      "id": "9",
+      "title": "Protect your peace oversized relaxed fit front & back print tshirt - Sky blue",
+      "price": "899",
+      "rating": {
+        "rate": "4.4"
+      },
+      "category": "oversized-tshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/ba4aba7a-aee5-491e-979d-8f7271af6d4a.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Oversized white t-shirt made with premium cotton for a relaxed streetwear fit."
+    },
+    {
+      "id": "10",
+      "title": "Fictional Men >> Oversized Tshirt - Black",
+      "price": " 934",
+      "rating": {
+        "rate": "4.6"
+      },
+      "category": "oversized-tshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/557dc653-d6cd-472f-95b6-229adf702b81.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Soft pastel pink oversized t-shirt for a comfortable yet aesthetic daily wear."
+    },
+    {
+      "id": "11",
+      "title": "Love Love Hoodie - Nile Green",
+      "price": "1499",
+      "rating": {
+        "rate": "4.7"
+      },
+      "category": "hoodies",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/a12ab4e3-c623-4129-b10e-0495488ea98b.jpg",
+      "description": "Classic black zip-up hoodie with warm fleece lining for everyday comfort."
+    },
+    {
+      "id": "12",
+      "title": "Trust The Process Hoodie (Black Font)- Nile Green",
+      "price": "1499",
+      "rating": {
+        "rate": "4.5"
+      },
+      "category": "hoodies",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/2c9eb02d-63ac-400f-82f4-9bfbe31ad070.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Lightweight beige hoodie with a clean minimal design for versatile styling."
+    },
+    {
+      "id": "13",
+      "title": "Dum Dum Army Sweatshirt - Lavendar",
+      "price": "1099",
+      "rating": {
+        "rate": "4.4"
+      },
+      "category": "sweatshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/f9eb618f-9ccc-4950-a13a-50e358360bbe.jpg",
+      "description": "Classic grey crewneck sweatshirt crafted from breathable fabric for daily comfort."
+    },
+    {
+      "id": "14",
+      "title": "Trust The Process Sweatshirt (Black Font) - Nile Green",
+      "price": "1,099",
+      "rating": {
+        "rate": "4.5"
+      },
+      "category": "sweatshirts",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/21ad04ca-8831-4eed-b6a5-cd463ff2ec4a.jpg",
+      "description": "Navy blue sweatshirt with a soft interior for cozy winter wear."
+    },
+    {
+      "id": "15",
+      "title": "Trust The Process Mobile Cover",
+      "price": "699",
+      "rating": {
+        "rate": "4.4"
+      },
+      "category": "mobile-covers",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/f5382d4e-fb96-43f5-b734-6db3fd8be634.jpg",
+      "description": "Elegant marble print cover for a premium look while protecting your phone."
+    },
+    {
+      "id": "16",
+      "title": "Trust The Process Mobile Cover (Black Font)",
+      "price": "699",
+      "rating": {
+        "rate": "4.6"
+      },
+      "category": "mobile-covers",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/b0071d59-ba06-4d00-a30b-0d2b46ca9fb1.jpg",
+      "description": "Durable phone cover with an anime print for fans who love aesthetic accessories."
+    },
+    {
+      "id": "17",
+      "title": "Pishvi Black Tote Bag English",
+      "price": "599",
+      "rating": {
+        "rate": "4.3"
+      },
+      "category": "totes",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/933c61a7-9f6f-47e2-8a78-8afecb14167c.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Eco-friendly canvas tote bag perfect for daily use and college carry."
+    },
+    {
+      "id": "18",
+      "title": "Pishvi Black Tote Bag Hindi",
+      "price": "599",
+      "rating": {
+        "rate": "4.5"
+      },
+      "category": "totes",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/439601cd-a35b-48e7-9b16-d06ce9133c4c.jpg",
+      "description": "Stylish printed tote bag with spacious compartments for your daily essentials."
+    },
+    {
+      "id": "19",
+      "title": "MostlySane Mask - Black",
+      "price": "299",
+      "rating": {
+        "rate": "4.2"
+      },
+      "category": "masks",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/5f39ec35-3cd8-4597-b044-ccfba542f346.jpg",
+      "description": "Breathable black cotton mask ideal for daily protection and comfort."
+    },
+    {
+      "id": "20",
+      "title": "Dum Dum Army Mask- Black",
+      "price": "299",
+      "rating": {
+        "rate": "4.3"
+      },
+      "category": "masks",
+      "image": "https://ik.imagekit.io/merchbay/seller/productimage/953c4936-8856-4fb2-960c-a130b59b2965.jpg?tr=w-400,dpr-2,q-50,f-jpg,pr-true",
+      "description": "Reusable printed face mask with soft fabric for a stylish and safe outing."
+    }
+  ]
+}
