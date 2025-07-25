@@ -12,6 +12,17 @@ const Navbar = () => {
       ? "relative text-white after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-white after:rounded-md"
       : "text-gray-400 hover:text-white transition duration-300 relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:rounded-md hover:after:w-full after:transition-all after:duration-300";
 
+  // Links to show, conditionally including Cart only when logged in
+  const links = [
+    { to: "/", label: "Home" },
+    { to: "/about", label: "About" },
+    { to: "/products", label: "Products" },
+  ];
+
+  if (user) {
+    links.push({ to: "/cart", label: "Cart" });
+  }
+
   return (
     <motion.nav
       initial={{ y: -50, opacity: 0 }}
@@ -33,12 +44,7 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6 text-sm font-medium">
-          {[
-            { to: "/", label: "Home" },
-            { to: "/about", label: "About" },
-            { to: "/products", label: "Products" },
-            { to: "/cart", label: "Cart" },
-          ].map((link) => (
+          {links.map((link) => (
             <motion.div whileHover={{ scale: 1.05 }} key={link.to}>
               <NavLink to={link.to} className={linkStyle}>{link.label}</NavLink>
             </motion.div>
@@ -75,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Animation */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -85,12 +91,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className="md:hidden px-6 py-4 bg-black/90 backdrop-blur-md text-base font-medium flex flex-col space-y-4"
           >
-            {[
-              { to: "/", label: "Home" },
-              { to: "/about", label: "About" },
-              { to: "/products", label: "Products" },
-              { to: "/cart", label: "Cart" },
-            ].map((link) => (
+            {links.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
