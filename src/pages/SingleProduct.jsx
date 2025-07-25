@@ -17,7 +17,7 @@ const SingleProduct = () => {
   const onAddToCart = (product) => {
     const copyUser = { ...user, cart: [...user.cart] };
     const index = copyUser.cart.findIndex((c) => c?.product?.id == product.id);
-    if (index == -1) {
+    if (index === -1) {
       copyUser.cart.push({ product, quantity: 1 });
     } else {
       copyUser.cart[index] = {
@@ -77,7 +77,7 @@ const SingleProduct = () => {
           <div>
             <span className="text-sm uppercase text-gray-500">Price</span>
             <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
-              <i className="ri-money-rupee-circle-line text-lg "></i>{product.price}
+              <i className="ri-money-rupee-circle-line text-lg"></i> {product.price}
             </p>
           </div>
           <div>
@@ -87,7 +87,7 @@ const SingleProduct = () => {
           <div>
             <span className="text-sm uppercase text-gray-500">Rating</span>
             <p className="text-yellow-400 font-semibold text-lg">
-              ⭐ {product.rating?.rate ?? "N/A"} 
+              ⭐ {product.rating?.rate ?? "N/A"}
               <span className="text-gray-400 text-sm ml-1">
                 ({product.rating?.count ?? 0} reviews)
               </span>
@@ -96,13 +96,15 @@ const SingleProduct = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
-          <Link
-            to="/cart"
-            onClick={() => onAddToCart(product)}
-            className="px-6 py-3 bg-yellow-600 hover:bg-yellow-500 text-black font-semibold rounded-md text-center"
-          >
-            Add To Cart
-          </Link>
+          {user && (
+            <Link
+              to="/cart"
+              onClick={() => onAddToCart(product)}
+              className="px-6 py-3 bg-yellow-600 hover:bg-yellow-500 text-black font-semibold rounded-md text-center"
+            >
+              Add To Cart
+            </Link>
+          )}
 
           {user && user.isAdmin && (
             <>

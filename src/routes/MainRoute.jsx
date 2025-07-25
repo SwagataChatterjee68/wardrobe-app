@@ -28,6 +28,7 @@ const MainRoute = () => {
                 <Route path='/*' element={<PageNotFound />} />
                 <Route path="/" element={<CategorySection />} />
                 <Route path="/shop/:category" element={<Shop />} />
+                <Route path='/products/:id' element={<SingleProduct />} />
 
                 {
                     user ?
