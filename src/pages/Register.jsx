@@ -19,7 +19,7 @@ const Register = () => {
         };
         dispatch(asyncRegisterUser(newUser));
         reset();
-        navigate("/login");
+        navigate("/");
     };
 
     return (

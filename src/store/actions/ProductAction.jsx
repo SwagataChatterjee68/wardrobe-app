@@ -2,18 +2,6 @@ import axios from '../../api/AxiosConfig'
 import { toast } from 'react-toastify'
 import {loadproduct} from '../reducers/ProductSlice'
 
-// export const asyncCreatedProduct = () => async (dispatch, getState) => {
-//     try {
-//         const product=JSON.parse(localStorage.getItem("product"))
-//         if(product) {  
-//             dispatch(loaduser(product))
-//         }
-//         else console.log("User Not Logged In")
-//     } catch (error) {
-//         toast.error("Something Went Wrong")
-
-//     }
-// }
 export const asyncLoadProduct = () => async (dispatch, getState) => {
     try {
         const {data} = await axios.get('/products')
