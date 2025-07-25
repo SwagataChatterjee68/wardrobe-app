@@ -48,7 +48,7 @@ const UserProfile = () => {
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      className="min-h-screen bg-[#0a0a0a] flex justify-center items-center px-4 py-10"
+      className="min-h-screen bg-[#0a0a0a] flex justify-center items-center pt-20 px-4 py-10"
     >
       <motion.form
         onSubmit={handleSubmit(UpdateHandler)}
