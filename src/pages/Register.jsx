@@ -4,11 +4,13 @@ import { useNavigate } from 'react-router-dom';
 import { asyncRegisterUser } from "../store/actions/UserAction";
 import { useDispatch } from 'react-redux';
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const Register = () => {
     const { register, handleSubmit, reset } = useForm();
     const navigate = useNavigate();
     const dispatch = useDispatch();
+    const [showPassword, setShowPassword] = useState(false);
 
     const RegisterHandler = (user) => {
         const newUser = {
@@ -84,15 +86,27 @@ const Register = () => {
 
                 {/* Password */}
                 <motion.div className="mb-6" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.8 }}>
-                    <label htmlFor="password" className="text-gray-400 text-sm">Password</label>
-                    <input
-                        type="password"
-                        {...register("password")}
-                        placeholder="••••••••"
-                        autoComplete="new-password"
-                        className="mt-1 w-full px-4 py-2 bg-[#0a0a0a] border border-[#2a2a2a] rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                        required
-                    />
+                    <div className="relative">
+                        <input
+                            type={showPassword ? "text" : "password"}
+                            {...register("password")}
+                            placeholder="••••••••"
+                            autoComplete="new-password"
+                            className="mt-1 w-full px-4 py-2 bg-[#0a0a0a] border border-[#2a2a2a] rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 pr-10"
+                            required
+                        />
+                        <button
+                            type="button"
+                            onClick={() => setShowPassword(!showPassword)}
+                            className="absolute inset-y-0 right-0 flex items-center px-3 text-gray-400 hover:text-gray-200 focus:outline-none"
+                        >
+                            {showPassword ? (
+                                <i class="ri-eye-fill"></i>
+                            ) : (
+                                <i class="ri-eye-off-fill"></i>
+                            )}
+                        </button>
+                    </div>
                 </motion.div>
 
                 {/* Register Button */}
