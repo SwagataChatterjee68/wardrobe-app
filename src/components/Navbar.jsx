@@ -26,7 +26,7 @@ const Navbar = () => {
           transition={{ type: "spring", stiffness: 300 }}
           className="text-2xl font-bold text-white"
         >
-          <p className="bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 text-transparent">
+          <p className="bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 text-transparent xl:text-3xl lg:xl md:text-xl text-xl tracking-tighter">
             MostlySane MERCHGARAGE
           </p>
         </motion.h1>

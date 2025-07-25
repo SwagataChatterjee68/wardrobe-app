@@ -18,7 +18,7 @@ const Home = () => {
             transition={{ duration: 1 }}
             className="space-y-6"
           >
-            <h1 className="text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-3xl font-extrabold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
               Bringing You Products That Inspire Your Everyday.
             </h1>
             <p className="text-gray-300 text-lg md:text-md">
