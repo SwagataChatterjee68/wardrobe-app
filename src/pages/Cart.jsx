@@ -75,7 +75,7 @@ const Cart = () => {
                                                     <div className="text-gray-400 text-sm">{item.product.category}</div>
                                                 </div>
                                             </td>
-                                            <td className="py-4">${item.product.price}</td>
+                                            <td className="py-4"><i className="ri-money-rupee-circle-line text-lg"></i>{item.product.price}</td>
                                             <td className="py-4 text-center">{item.quantity}</td>
                                             <td className="py-4">
                                                 <i className="ri-money-rupee-circle-line text-lg"></i>{(parseFloat(item.product.price) * item.quantity).toFixed(2)}
